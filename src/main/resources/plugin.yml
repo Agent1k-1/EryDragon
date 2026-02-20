@@ -1,0 +1,12 @@
+name: EryDragon
+version: '${project.version}'
+main: com.erydevs.EryDragon
+api-version: '1.16'
+commands:
+  erydragon:
+    aliases: [egg]
+permissions:
+  erydragon.reload:
+    default: op
+  dragon.unblocker:
+    default: op

@@ -1,0 +1,17 @@
+settings:
+  obmen-command: "p give %payer_name% 500"
+
+egg-sound: # звук при сдаче яйца
+  enabled: true
+  sound: "BLOCK_NOTE_BLOCK_XYLOPHONE"
+  volume: 1.0
+  pitch: 1.0
+world-blocker:
+  - "world_the_end"
+message:
+  egg-dragon: "&#3498DBВы успешно обменяли &#FFFFFFЯйцо дракона &#3498DBна &#FF0000%amount% &#FFFFFFпоинтов"
+  egg-error: "&#FF0000У вас нет &#FFFFFFЯйца дракона &#FF0000в инвентаре"
+  reload-config: "&#3498DBПлагин успешно перезагружен и готов к работе"
+  no-permission: "&#FF0000У вас нет прав"
+  world-blocker: "&#FFA500Вы &#FF0000не можете &#FFFFFFоткрыть обменник в этом мире"
+  only-player: "&#FF0000Только игрок"
